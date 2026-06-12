@@ -24,4 +24,4 @@ class Program
         Logic obj = new Logic();
         obj.sumOfDigits(1234);
     }
-}
+} 
