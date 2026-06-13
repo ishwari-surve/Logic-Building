@@ -13,7 +13,7 @@
 
 void Pattern(int iRow, int iCol)
 {
-    
+     
     int iR = 0;  
     int iC = 0;   
 
