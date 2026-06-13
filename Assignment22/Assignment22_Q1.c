@@ -22,4 +22,4 @@ printf("Enter number of elements");
 scanf("%d %d",&iValue);
 Pattern(iValue);
 return 0;
-}
+} 
