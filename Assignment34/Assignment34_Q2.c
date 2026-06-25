@@ -16,7 +16,7 @@ void StrNCpyX(char *src, char *dest, int iCnt)
 
 int main()
 {
-    char arr[30] = "Marvellous Multi OS";
+    char arr[30] = "Ishwari Surve";
     char brr[30];
 
     StrNCpyX(arr,brr,10);
