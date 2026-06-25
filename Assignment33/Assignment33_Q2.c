@@ -1,19 +1,16 @@
 #include<stdio.h>
-
 int CountChar(char *str, char ch)
 {
-    int iCnt = 0; 
-
+    int iCnt = 0;
     while(*str != '\0')
     {
-        if(*str == ch)
+        if((*str == ch )||(*str == ch-32 )||(*str == ch + 32))
         {
             iCnt++;
         }
 
         str++;
     }
-
     return iCnt;
 }
 
@@ -31,7 +28,7 @@ int main()
 
     iRet = CountChar(arr,cValue);
 
-    printf("Character frequency is %d\n",iRet);
+    printf("Letter found  %d\n",iRet);
 
     return 0;
 }
