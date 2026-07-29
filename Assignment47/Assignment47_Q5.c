@@ -1,7 +1,7 @@
 // QUESTION 5: Accept file and count N, display first N characters from that file
 #include<stdio.h>
 #include<fcntl.h>
-#include<unistd.h>
+#include<unistd.h> 
 #include<string.h>
 
 #define BUFFER_SIZE 1024
