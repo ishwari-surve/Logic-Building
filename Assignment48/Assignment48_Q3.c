@@ -20,7 +20,7 @@ void DisplayFile(char *Filename)
 
     while((iRet = read(fd, Buffer, sizeof(Buffer))) > 0)
     {
-        write(STDOUT_FILENO, Buffer, iRet);
+        write(1,Buffer,iRet);
         memset(Buffer, '\0', sizeof(Buffer));
     }
 
