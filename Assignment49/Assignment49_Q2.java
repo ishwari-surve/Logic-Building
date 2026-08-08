@@ -3,7 +3,7 @@
 import java.io.*;
 import java.util.*;
 
-class Assignment_45_Q2
+class Assignment49_Q2
 {
     public static void main(String A[]) throws IOException
     {
