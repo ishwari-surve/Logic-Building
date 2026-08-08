@@ -1,7 +1,7 @@
 // Program to accept file name from user and open that file in write mode and write some data at the end of file
 import java.io.*;
 import java.util.*;
-
+ 
 class Assignment_45_Q3
 {
     public static void main(String A[]) throws IOException
