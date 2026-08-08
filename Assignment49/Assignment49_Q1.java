@@ -3,7 +3,7 @@
 import java.io.*;
 import java.util.*; 
 
-class Assignment_45_Q1
+class Assignment49_Q1
 {
     public static void main(String args[])
     {
