@@ -2,7 +2,7 @@
 import java.io.*;
 import java.util.Scanner;
 
-class Assignment_45_Q2_Buffer
+class Assignment_45_Q2_Buffer 
 {
     public static void main(String args[])
     {
