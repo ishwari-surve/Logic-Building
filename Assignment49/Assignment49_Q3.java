@@ -2,7 +2,7 @@
 import java.io.*;
 import java.util.*;
  
-class Assignment_45_Q3
+class Assignment49_Q3
 {
     public static void main(String A[]) throws IOException
     {
