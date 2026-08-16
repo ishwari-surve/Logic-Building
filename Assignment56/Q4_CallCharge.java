@@ -1,4 +1,4 @@
-/8
+/*
 Q4 — Telecom Call Charge
 
 A telecom company charges for calls based on the duration of the call.
