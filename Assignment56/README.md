@@ -2,7 +2,7 @@
 
 This assignment focuses on solving real-world programming problems using logical thinking, decision-making, calculations, and data handling techniques.
 
-The programs are designed to strengthen problem-solving skills by converting given problem statements into simple and structured programming solutions.
+The programs are designed to strengthen problem-solving skills by converting given problem statements into simple and structured Java solutions.
 
 ## Objective
 
@@ -30,12 +30,13 @@ The main objective of this assignment is to:
 - Duplicate Detection
 - Maximum Value Finding
 - Counting
+- User Defined Functions
 - Real-World Problem Solving
 - Competitive Coding
 
 ## Approach
 
-Each problem is analyzed to understand the given requirements, rules, and validations.
+Each problem is analyzed to understand the given requirements, rules, and validation conditions.
 
 The solution is implemented using suitable programming concepts while considering:
 
@@ -45,39 +46,35 @@ The solution is implemented using suitable programming concepts while considerin
 - Different possible cases
 - Calculations based on given rules
 - Proper output formatting
+- Separate functions for program logic
 
 ## Repository Structure
 
 ```text
-Assignment52/
+Assignment56/
 │
-├── HotelBill.java
-├── VoteCount.java
-├── FitnessSteps.java
-├── CallCharge.java
-└── README.md
-
+├── Program files
+└── README.md ## Learning Outcome
 ```
 
-## Learning Outcome
+## After completing this assignment, I improved my ability to:
 
-After completing this assignment, I improved my ability to:
-
-1.Read and understand programming problem statements
-2.Design logical solutions before writing code
-3.Apply conditions and loops effectively
-4.Work with arrays and collections
-5.Identify and handle duplicate values
-6.Find maximum values and count required results
-7.Perform calculations according to given rules
-8.Handle boundary and invalid cases
-9.Write clean and structured Java programs
-10.Solve real-world competitive coding problems
+- Understand and process data using arrays
+- Traverse arrays using loops
+- Identify and handle duplicate values
+- Find maximum values
+- Count required results
+- Perform calculations according to given rules
+- Validate input values
+- Divide program logic into separate functions
+- Solve real-world competitive coding problems
+- Write clean and structured Java programs
 
 ## Technologies Used
--Java
--Visual Studio Code
--Git & GitHub
+
+- Java
+- Visual Studio Code
+- Git & GitHub
 
 ## Author
 
