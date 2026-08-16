@@ -1,5 +1,5 @@
 # Assignment 52 - Competitive Coding
-
+ 
 This assignment focuses on solving programming problems using logical thinking, conditional statements, calculations, and decision-making techniques.
 
 The programs are designed to improve problem-solving skills by converting real-world problem statements into simple and structured Java solutions.
