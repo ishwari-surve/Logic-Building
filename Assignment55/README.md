@@ -1,6 +1,6 @@
 # Assignment 55 - Competitive Coding
 
-This assignment focuses on solving real-world programming problems using logical thinking and problem-solving techniques.
+This assignment focuses on solving real-world programming problems using logical thinking, calculations, decision-making, and problem-solving techniques.
 
 The programs involve different real-world scenarios and require applying appropriate conditions, calculations, loops, input validation, and decision-making logic.
 
@@ -25,15 +25,16 @@ The main objective of this assignment is to:
 - Arithmetic Operations
 - Loops
 - Input Validation
-- Edge Case Handling
+- Boundary Conditions
+- User Defined Functions
 - Real-World Problem Solving
 - Competitive Coding
 
 ## Approach
 
-Each problem is analyzed to understand the given requirements and conditions.
+Each problem is analyzed to understand the given requirements, rules, and validations.
 
-The solution is then implemented using suitable programming concepts while considering:
+The solution is implemented using suitable programming concepts while considering:
 
 - Valid and invalid inputs
 - Boundary conditions
@@ -41,37 +42,35 @@ The solution is then implemented using suitable programming concepts while consi
 - Different possible cases
 - Calculations based on given rules
 - Proper output formatting
+- Separate functions for program logic
 
 ## Repository Structure
 
 ```text
-Assignment51/
+Assignment55/
 │
-├── HospitalBill.java
-├── TrainFare.java
-├── MobilePlan.java
-├── WaterBill.java
-├── CinemaBooking.java
-└── README.md
+├── Program files
+└── README.md ## Learning Outcome
+
 ```
 
-## Learning Outcome
+## After completing this assignment, I improved my ability to:
 
-After completing this assignment, I improved my ability to:
-
--Read and understand programming problem statements
--Design logical solutions before writing code
--Apply conditions and loops effectively
--Perform calculations according to given requirements
--Handle boundary and invalid cases
--Write clean and structured Java programs
--Solve real-world competitive coding problems
+- Read and understand programming problem statements
+- Design logical solutions before writing code
+- Apply conditions and loops effectively
+- Perform calculations according to given requirements
+- Handle boundary and invalid cases
+- Divide program logic into separate functions
+- Solve real-world competitive coding problems
+- Write clean and structured Java programs
 
 ## Technologies Used
--Java
--Visual Studio Code
--Git & GitHub
+
+- Java
+- Visual Studio Code
+- Git & GitHub
 
 ## Author
 
-**Ishwari Surve**
+Ishwari Surve
