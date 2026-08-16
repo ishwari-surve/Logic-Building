@@ -2,7 +2,7 @@
 
 This assignment focuses on solving real-world programming problems using two-dimensional arrays and matrix-based data processing.
 
-The programs are designed to improve logical thinking, data analysis, and problem-solving skills by working with structured data stored in 2D arrays.
+The programs are designed to improve logical thinking, data analysis, and problem-solving skills by working with structured data stored in rows and columns.
 
 ## Objective
 
@@ -16,6 +16,7 @@ The main objective of this assignment is to:
 - Calculate averages
 - Identify specific conditions from matrix data
 - Validate input values
+- Divide program logic into separate functions
 - Solve real-world problems using logical programming
 
 ## Concepts Practiced
@@ -31,6 +32,7 @@ The main objective of this assignment is to:
 - Total and Average Calculation
 - Maximum Value Finding
 - Input Validation
+- User Defined Functions
 - Real-World Problem Solving
 - Competitive Coding
 
@@ -52,17 +54,14 @@ The solution is implemented using suitable functions and nested loops while cons
 ## Repository Structure
 
 ```text
-Assignment53/
+Assignment57/
 │
 ├── StudentPerformance.java
 ├── CinemaSeating.java
-└── README.md
-
+└── README.md ## Learning Outcome
 ```
 
-## Learning Outcome
-
-After completing this assignment, I improved my ability to:
+## After completing this assignment, I improved my ability to:
 
 - Understand and process 2D arrays
 - Traverse matrices using nested loops
