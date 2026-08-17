@@ -1,5 +1,5 @@
 /*
-Q5 — Palindrome Number
+Q5 — Palindrome Number 
 
 Write a program to check whether a given number is a Palindrome Number or not.
 
