@@ -1,4 +1,4 @@
-# Assignment 57 - Logic Building
+# Assignment 61 - Logic Building
 
 This assignment focuses on string-based logic building and problem solving using Python.
 
@@ -63,11 +63,11 @@ The programs use suitable loops, conditions, and functions to implement the requ
 ```text
 Assignment61/
 │
-├── ReverseWords.py
-├── LongestWord.py
-├── RemoveDuplicateCharacters.py
-├── CountVowelsConsonants.py
-├── StringRotation.py
+├── ReverseWords.java
+├── LongestWord.java
+├── RemoveDuplicateCharacters.java
+├── CountVowelsConsonants.java
+├── StringRotation.java
 └── README.md
 ```
 
