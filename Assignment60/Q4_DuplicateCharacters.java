@@ -9,41 +9,57 @@ Output Format: Duplicate characters printed in one line.
 
 import java.util.*;
 
-class CharacterFrequency
+class DuplicateCharacters
 {
-    public static void CountFrequency(String Str)
+    public static void FindDuplicates(String Str)
     {
         int iLen = Str.length();
         int i    = 0;
         int j    = 0;
+        boolean bFound = false;
 
         for(i = 0; i < iLen; i++)
         {
             int iCount = 0;
 
-            boolean bAlreadyProcessed = false;
-
-            for(j = 0; j < i; j++)
+            for(j = 0; j < iLen; j++)
             {
                 if(Str.charAt(i) == Str.charAt(j))
                 {
-                    bAlreadyProcessed = true;
-                    break;
+                    iCount++;
                 }
             }
 
-            if(bAlreadyProcessed == false)
+           
+            if(iCount > 1)
             {
-                for(j = 0; j < iLen; j++)
+                
+                boolean bAlreadyPrinted = false;
+
+                for(j = 0; j < i; j++)
                 {
                     if(Str.charAt(i) == Str.charAt(j))
                     {
-                        iCount++;
+                        bAlreadyPrinted = true;
+                        break;
                     }
                 }
 
-                System.out.println(Str.charAt(i) + " -> " + iCount);
+                if(bAlreadyPrinted == false)
+                {
+                    System.out.print(Str.charAt(i) + " ");
+                    bFound = true;
+                }
             }
+        }
+
+        if(bFound == false)
+        {
+            System.out.println("No duplicate characters found");
+        }
+        else
+        {
+            System.out.println();
         }
     }
 
@@ -55,6 +71,6 @@ class CharacterFrequency
         System.out.println("Enter string :");
         Str = sobj.nextLine();
 
-        CountFrequency(Str);
+        FindDuplicates(Str);
     }
 }
