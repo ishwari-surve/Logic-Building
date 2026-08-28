@@ -3,7 +3,7 @@ import java.net.*;
 import java.time.*;
 import java.time.format.*;
 
-class InfoClientHandler extends Thread
+class InfoClientHandler extends Thread 
 {
     Socket ClientSocket;
 
