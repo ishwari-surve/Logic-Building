@@ -106,3 +106,35 @@ class InfoClientHandler extends Thread
         }
         catch(Exception e)
         {
+            System.out.println("Error : " + e.getMessage());
+        }
+    }
+}
+
+public class Q2_InfoServer
+{
+    public static void main(String A[])
+    {
+        try
+        {
+            int iPort = 8080;
+            ServerSocket ss = new ServerSocket(iPort);
+
+            System.out.println("Info Server started on port : " + iPort);
+            System.out.println("Waiting for clients...");
+
+            while(true)
+            {
+                Socket ClientSocket = ss.accept();
+                System.out.println("New client connected : " + ClientSocket.getInetAddress());
+
+                InfoClientHandler ch = new InfoClientHandler(ClientSocket);
+                ch.start();
+            }
+        }
+        catch(Exception e)
+        {
+            System.out.println("Server Error : " + e.getMessage());
+        }
+    }
+}
