@@ -1,4 +1,4 @@
-# Assignment 62 - Logic Building
+# Assignment 66 - Logic Building
 
 This assignment focuses on file handling in Java using the FileInputStream, FileOutputStream, and File classes.
 
@@ -104,7 +104,7 @@ The program handles directory listing by:
 ## Repository Structure
 
 ```
-Assignment-62/
+Assignment-66/
 │
 ├── Q1_WriteFile.java
 ├── Q2_ReadFile.java
