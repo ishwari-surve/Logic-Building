@@ -1,7 +1,7 @@
 /*
 A messaging application wants to identify the first character in a message that occurs only once.
 
-Input: programming
+Input: programming 
 
 Output: First non-repeating character : p
 
