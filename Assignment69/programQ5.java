@@ -1,6 +1,6 @@
 /*
 An e-commerce application records product IDs:
-101 102 101 103 101 102 104 105 102 102 103
+101 102 101 103 101 102 104 105 102 102 103 
 
 Find the top 2 most frequently purchased products.
 
