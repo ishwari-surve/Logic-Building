@@ -1,7 +1,7 @@
 /*
 Student data is:
  
-Amit 78
+Amit 78 
 Pooja 92
 Rahul 85
 Neha 92
