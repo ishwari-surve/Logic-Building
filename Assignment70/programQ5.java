@@ -1,7 +1,7 @@
 /*
 Social Network Shortest Connection
 
-A social networking application contains friendships:
+A social networking application contains friendships: 
 Amit -> Rahul, Pooja
 Rahul -> Neha
 Pooja -> Kiran
